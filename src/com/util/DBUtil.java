@@ -1,14 +1,10 @@
-package com.util;
+package com.linkage.util;
 
-import org.apache.commons.dbcp2.BasicDataSourceFactory;
-
-import javax.sql.DataSource;
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Properties;
-
 
 /**
  * 访问数据库工具类
@@ -16,26 +12,14 @@ import java.util.Properties;
  *
  */
 public class DBUtil {
-//	//驱动
-//	private static final String driver="com.mysql.jdbc.Driver";
-//	//url
-//	private static final String url="jdbc:mysql://localhost/ngmc?useUnicode=true&characterEncoding=utf-8";
-//	//用户名
-//	private static final String user="root";
-//	//密码
-//	private static final String password="root";
-	private static DataSource dataSource =null;
-	static {
-		Properties prop=new Properties();
-		try {
-			prop.load(DBUtil.class.getClassLoader().getResourceAsStream("dbcp_config.properties"));
-			dataSource =BasicDataSourceFactory.createDataSource(prop);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
-	}
-
+	//驱动
+	private static final String driver="com.mysql.jdbc.Driver";
+	//url
+	private static final String url="jdbc:mysql://localhost/mobile?useUnicode=true&characterEncoding=utf-8";
+	//用户名
+	private static final String user="root";
+	//密码
+	private static final String password="1998";
 	//核心接口建立的对象
 	protected Connection conn=null;//连接对象
 	protected PreparedStatement pstmt=null;//预编译执行sql语句的对象
@@ -43,19 +27,14 @@ public class DBUtil {
 	//获取连接对象
 	public Connection getConnection() {
 		if(conn==null) {
-//			try {
-//				Class.forName(driver);
-//				conn=DriverManager.getConnection(url, user, password);
-//			} catch (ClassNotFoundException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			} catch (SQLException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
 			try {
-				conn =dataSource.getConnection();
+				Class.forName(driver);
+				conn=DriverManager.getConnection(url, user, password);
+			} catch (ClassNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			} catch (SQLException e) {
+				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
