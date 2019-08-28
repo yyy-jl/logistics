@@ -57,6 +57,8 @@ public class UserServlet extends HttpServlet {
 			}else {
 				response.sendRedirect(request.getContextPath()+"/login.html");
 			}
+		}else if(method.equals("editGoodsBill")){
+
 		}
 
 	}

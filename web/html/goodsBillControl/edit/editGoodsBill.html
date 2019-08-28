@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="layui-form-item" style="margin-top: 20px">
-    <form class="layui-form" action="" id="goodsBillForm">
+    <form class="layui-form" action="/UserServlet?method=editGoodsBill" method="post" id="goodsBillForm">
         <div class="layui-form-item">
             <label class="layui-form-label wd-100">发货客户编号</label>
             <div class="layui-input-inline">
@@ -261,7 +261,8 @@
         </div>
         <div class="layui-form-item">
             <div class="layui-input-block">
-                <button class="layui-btn" lay-submit lay-filter="addGoodsBill" id="addGoodsBill">立即提交</button>
+                <!--<button class="layui-btn" lay-submit lay-filter="addGoodsBill" id="addGoodsBill">立即提交</button>-->
+                <input type="submit"  class="layui-btn" value="提交">
                 <button type="reset" id="resetForm" class="layui-btn layui-btn-primary">重置</button>
             </div>
         </div>
