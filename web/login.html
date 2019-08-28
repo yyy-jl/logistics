@@ -17,7 +17,7 @@
 <body>
 	<div class='login'>
         <div class="layui-form-item">
-            <form class="layui-form" action="" id="loginForm">
+            <form class="layui-form" action="UserServlet?method=login" method="post" id="loginForm">
                 <div class='login_title'>
                     <span>登录</span>
                 </div>
@@ -28,7 +28,7 @@
                                 <img alt="" src='img/user_icon_copy.png'>
                             </div>
                             <div class="layui-input-inline">
-                                <input type="text" id="loginId" name="loginId" required lay-verify="required" placeholder="请填写用户名" autocomplete="off">
+                                <input type="text"  name="loginId" required lay-verify="required" placeholder="请填写用户名" autocomplete="off">
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
                                 <img alt="" src='img/lock_icon_copy.png'>
                             </div>
                             <div class="layui-input-inline">
-                                <input type="password" id="password" name="password" required lay-verify="required" placeholder="请填写密码" autocomplete="off">
+                                <input type="password"  name="password" required lay-verify="required" placeholder="请填写密码" autocomplete="off">
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,8 @@
                         <div class='login_fields__submit' align="center">
                             <div class="layui-input-block">
                                 <!--<input type='button' value='登录'>-->
-                                <button class="layui-btn" lay-submit lay-filter="login">登录</button>
+                                <!--<button class="layui-btn" lay-submit lay-filter="login">登录</button>-->
+                                <input type="submit" class="layui-btn" value="登录">
                             </div>
                         </div>
                     </div>
@@ -70,6 +71,8 @@
     <script src="js/nginx.js"></script>
     <script src="js/login/login.js"></script>
 	<script type="text/javascript">
+
+
 
 	    // 粒子背景特效
 	    $('body').particleground({
@@ -99,6 +102,17 @@
 	            }, 200);
 	        }
 	    });
+
+        layui.use('form', function(){
+            var form = layui.form;
+            //监听提交
+            form.on('submit(login)', function(data){
+                layer.msg(JSON.stringify(data.field));
+                alert("aaaa")
+                return false;
+            });
+        });
+
 
     </script>
 
