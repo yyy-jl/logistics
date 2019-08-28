@@ -2,6 +2,7 @@ package com.dao.impl;
 
 
 import com.dao.UserDao;
+import com.entity.Receipt;
 import com.entity.User;
 import com.util.DBUtil;
 
@@ -26,5 +27,25 @@ public class UserDaoImpl extends DBUtil implements UserDao {
             closeAll(conn, pstmt, rs);
         }
         return user;
+    }
+
+    @Override
+    public Receipt getReceiptByGoodsBillCode(String goodsBillCode) throws SQLException {
+        String sql="select sendGoodsCustomer,sendGoodsCustomerTel,sendGoodsCustomerAddr from receipt where sendGoodsCustomerNo=?";
+        Receipt receipt;
+        try {
+            rs=executeQuery(sql,goodsBillCode);
+            receipt =null;
+            if (rs.next()){
+                receipt =new Receipt();
+                receipt.setSendGoodsCustomer(rs.getString("sendGoodsCustomer"));
+                receipt.setSendGoodsCustomerTel(rs.getString("sendGoodsCustomerTel"));
+                receipt.setSendGoodsCustomerAddr(rs.getString("sendGoodsCustomerAddr"));
+            }
+
+        }finally {
+            closeAll(conn, pstmt, rs);
+        }
+        return receipt;
     }
 }

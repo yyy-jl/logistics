@@ -2,6 +2,8 @@ package com.servlet;
 
 
 
+import com.alibaba.fastjson.JSON;
+import com.entity.Receipt;
 import com.entity.User;
 import com.service.UserService;
 import com.service.impl.UserServiceImpl;
@@ -58,6 +60,10 @@ public class UserServlet extends HttpServlet {
 				response.sendRedirect(request.getContextPath()+"/login.html");
 			}
 		}else if(method.equals("editGoodsBill")){
+			String sendGoodsCustomerNo=request.getParameter("sendGoodsCustomerNo");
+			Receipt receipt=userService.getReceiptByGoodsBillCode(sendGoodsCustomerNo);
+			String ReceiptJson=JSON.toJSONStringWithDateFormat(receipt,"yyyy-MM-dd,HH:mm:ss");
+			out.print(ReceiptJson);
 
 		}
 
