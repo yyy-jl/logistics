@@ -1,4 +1,4 @@
-package com.linkage.util;
+package com.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,11 +15,11 @@ public class DBUtil {
 	//驱动
 	private static final String driver="com.mysql.jdbc.Driver";
 	//url
-	private static final String url="jdbc:mysql://localhost/mobile?useUnicode=true&characterEncoding=utf-8";
+	private static final String url="jdbc:mysql://localhost/logistics?useUnicode=true&characterEncoding=utf-8";
 	//用户名
 	private static final String user="root";
 	//密码
-	private static final String password="1998";
+	private static final String password="root";
 	//核心接口建立的对象
 	protected Connection conn=null;//连接对象
 	protected PreparedStatement pstmt=null;//预编译执行sql语句的对象
