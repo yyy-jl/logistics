@@ -3,7 +3,7 @@ package com.entity;
 public class User {
     private String a_account;
     private String a_password;
-    public int a;
+
 
     public User(String a_account, String a_password) {
         this.a_account = a_account;
