@@ -7,15 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00c611f4-5e03-4137-8cad-2270ecb2a7ce" name="Default" comment="web">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/logistics_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_0_bin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/entity/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document/日报/8.28/胡嘉豪" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/html/goodsBillControl/edit/editGoodsBill.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/html/goodsBillControl/edit/editGoodsBill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/日报/8.28胡嘉豪" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,231 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="UserServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/UserServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Receipt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/entity/Receipt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-              <folding>
-                <element signature="e#3805#3806#0" expanded="true" />
-                <element signature="e#3830#3831#0" expanded="true" />
-                <element signature="e#3863#3864#0" expanded="true" />
-                <element signature="e#3891#3892#0" expanded="true" />
-                <element signature="e#3937#3938#0" expanded="true" />
-                <element signature="e#3979#3980#0" expanded="true" />
-                <element signature="e#4049#4050#0" expanded="true" />
-                <element signature="e#4111#4112#0" expanded="true" />
-                <element signature="e#4155#4156#0" expanded="true" />
-                <element signature="e#4195#4196#0" expanded="true" />
-                <element signature="e#4261#4262#0" expanded="true" />
-                <element signature="e#4319#4320#0" expanded="true" />
-                <element signature="e#4366#4367#0" expanded="true" />
-                <element signature="e#4409#4410#0" expanded="true" />
-                <element signature="e#4593#4594#0" expanded="true" />
-                <element signature="e#4637#4638#0" expanded="true" />
-                <element signature="e#4826#4827#0" expanded="true" />
-                <element signature="e#4871#4872#0" expanded="true" />
-                <element signature="e#5062#5063#0" expanded="true" />
-                <element signature="e#5105#5106#0" expanded="true" />
-                <element signature="e#5291#5292#0" expanded="true" />
-                <element signature="e#5337#5338#0" expanded="true" />
-                <element signature="e#5536#5537#0" expanded="true" />
-                <element signature="e#5583#5584#0" expanded="true" />
-                <element signature="e#5775#5776#0" expanded="true" />
-                <element signature="e#5811#5812#0" expanded="true" />
-                <element signature="e#5869#5870#0" expanded="true" />
-                <element signature="e#5919#5920#0" expanded="true" />
-                <element signature="e#5959#5960#0" expanded="true" />
-                <element signature="e#5995#5996#0" expanded="true" />
-                <element signature="e#6053#6054#0" expanded="true" />
-                <element signature="e#6103#6104#0" expanded="true" />
-                <element signature="e#6146#6147#0" expanded="true" />
-                <element signature="e#6185#6186#0" expanded="true" />
-                <element signature="e#6249#6250#0" expanded="true" />
-                <element signature="e#6305#6306#0" expanded="true" />
-                <element signature="e#6347#6348#0" expanded="true" />
-                <element signature="e#6385#6386#0" expanded="true" />
-                <element signature="e#6447#6448#0" expanded="true" />
-                <element signature="e#6501#6502#0" expanded="true" />
-                <element signature="e#6540#6541#0" expanded="true" />
-                <element signature="e#6575#6576#0" expanded="true" />
-                <element signature="e#6631#6632#0" expanded="true" />
-                <element signature="e#6679#6680#0" expanded="true" />
-                <element signature="e#6723#6724#0" expanded="true" />
-                <element signature="e#6763#6764#0" expanded="true" />
-                <element signature="e#6829#6830#0" expanded="true" />
-                <element signature="e#6887#6888#0" expanded="true" />
-                <element signature="e#6933#6934#0" expanded="true" />
-                <element signature="e#6975#6976#0" expanded="true" />
-                <element signature="e#7045#7046#0" expanded="true" />
-                <element signature="e#7107#7108#0" expanded="true" />
-                <element signature="e#7141#7142#0" expanded="true" />
-                <element signature="e#7171#7172#0" expanded="true" />
-                <element signature="e#7217#7218#0" expanded="true" />
-                <element signature="e#7255#7256#0" expanded="true" />
-                <element signature="e#7296#7297#0" expanded="true" />
-                <element signature="e#7333#7334#0" expanded="true" />
-                <element signature="e#7393#7394#0" expanded="true" />
-                <element signature="e#7445#7446#0" expanded="true" />
-                <element signature="e#7487#7488#0" expanded="true" />
-                <element signature="e#7525#7526#0" expanded="true" />
-                <element signature="e#7587#7588#0" expanded="true" />
-                <element signature="e#7641#7642#0" expanded="true" />
-                <element signature="e#7677#7678#0" expanded="true" />
-                <element signature="e#7709#7710#0" expanded="true" />
-                <element signature="e#7759#7760#0" expanded="true" />
-                <element signature="e#7801#7802#0" expanded="true" />
-                <element signature="e#7836#7837#0" expanded="true" />
-                <element signature="e#7867#7868#0" expanded="true" />
-                <element signature="e#7915#7916#0" expanded="true" />
-                <element signature="e#7955#7956#0" expanded="true" />
-                <element signature="e#7989#7990#0" expanded="true" />
-                <element signature="e#8019#8020#0" expanded="true" />
-                <element signature="e#8066#8067#0" expanded="true" />
-                <element signature="e#8104#8105#0" expanded="true" />
-                <element signature="e#8147#8148#0" expanded="true" />
-                <element signature="e#8186#8187#0" expanded="true" />
-                <element signature="e#8251#8252#0" expanded="true" />
-                <element signature="e#8307#8308#0" expanded="true" />
-                <element signature="e#8349#8350#0" expanded="true" />
-                <element signature="e#8387#8388#0" expanded="true" />
-                <element signature="e#8450#8451#0" expanded="true" />
-                <element signature="e#8504#8505#0" expanded="true" />
-                <element signature="e#8539#8540#0" expanded="true" />
-                <element signature="e#8573#8574#0" expanded="true" />
-                <element signature="e#8624#8625#0" expanded="true" />
-                <element signature="e#8670#8671#0" expanded="true" />
-                <element signature="e#8705#8706#0" expanded="true" />
-                <element signature="e#8739#8740#0" expanded="true" />
-                <element signature="e#8790#8791#0" expanded="true" />
-                <element signature="e#8836#8837#0" expanded="true" />
-                <element signature="e#8870#8871#0" expanded="true" />
-                <element signature="e#8903#8904#0" expanded="true" />
-                <element signature="e#8952#8953#0" expanded="true" />
-                <element signature="e#8996#8997#0" expanded="true" />
-                <element signature="e#9036#9037#0" expanded="true" />
-                <element signature="e#9075#9076#0" expanded="true" />
-                <element signature="e#9136#9137#0" expanded="true" />
-                <element signature="e#9192#9193#0" expanded="true" />
-                <element signature="e#9229#9230#0" expanded="true" />
-                <element signature="e#9265#9266#0" expanded="true" />
-                <element signature="e#9320#9321#0" expanded="true" />
-                <element signature="e#9370#9371#0" expanded="true" />
-                <element signature="e#9402#9403#0" expanded="true" />
-                <element signature="e#9433#9434#0" expanded="true" />
-                <element signature="e#9478#9479#0" expanded="true" />
-                <element signature="e#9518#9519#0" expanded="true" />
-                <element signature="e#9551#9552#0" expanded="true" />
-                <element signature="e#9583#9584#0" expanded="true" />
-                <element signature="e#9630#9631#0" expanded="true" />
-                <element signature="e#9672#9673#0" expanded="true" />
-                <element signature="e#9709#9710#0" expanded="true" />
-                <element signature="e#9742#9743#0" expanded="true" />
-                <element signature="e#9794#9795#0" expanded="true" />
-                <element signature="e#9838#9839#0" expanded="true" />
-                <element signature="e#9871#9872#0" expanded="true" />
-                <element signature="e#9900#9901#0" expanded="true" />
-                <element signature="e#9944#9945#0" expanded="true" />
-                <element signature="e#9980#9981#0" expanded="true" />
-                <element signature="e#10020#10021#0" expanded="true" />
-                <element signature="e#10056#10057#0" expanded="true" />
-                <element signature="e#10114#10115#0" expanded="true" />
-                <element signature="e#10164#10165#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="19" column="64" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129">
-              <caret line="112" column="49" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editGoods.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/html/goodsBillControl/edit/editGoods.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1890" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editGoodsBill.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/html/goodsBillControl/edit/editGoodsBill.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-599">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -274,7 +44,9 @@
         <option value="$PROJECT_DIR$/src/com/entity/User.java" />
         <option value="$PROJECT_DIR$/src/com/entity/Receipt.java" />
         <option value="$PROJECT_DIR$/web/html/goodsBillControl/edit/editGoodsBill.html" />
+        <option value="$PROJECT_DIR$/document/日报/8.28胡嘉豪" />
         <option value="$PROJECT_DIR$/src/com/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/document/日报/8.28/胡嘉豪" />
       </list>
     </option>
   </component>
@@ -331,10 +103,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="57" />
-    <option name="width" value="1841" />
-    <option name="height" value="972" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -343,6 +114,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -353,135 +125,25 @@
             <path>
               <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
               <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="document" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
               <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="document" type="462c0819:PsiDirectoryNode" />
               <item name="日报" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
               <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsBillControl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="goodsBillControl" type="462c0819:PsiDirectoryNode" />
-              <item name="edit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="logistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="logistics" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="document" type="462c0819:PsiDirectoryNode" />
+              <item name="日报" type="462c0819:PsiDirectoryNode" />
+              <item name="8.28" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -623,6 +285,7 @@
       <workItem from="1566890567588" duration="276000" />
       <workItem from="1566892559001" duration="228000" />
       <workItem from="1566953251165" duration="12449000" />
+      <workItem from="1566987033791" duration="1952000" />
     </task>
     <task id="LOCAL-00001" summary="web">
       <created>1566953770551</created>
@@ -659,40 +322,47 @@
       <option name="project" value="LOCAL" />
       <updated>1566984287332</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="胡嘉豪">
+      <created>1566987193685</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566987193685</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18623000" />
+    <option name="totallyTimeSpent" value="20575000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="57" width="1841" height="972" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51046973" side_tool="true" visible="true" weight="0.24845488" />
-      <window_info anchor="bottom" id="Application Servers" order="13" sideWeight="0.49624464" weight="0.35963923" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49575552" weight="0.25339925" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4992785" weight="0.35851184" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.51046973" side_tool="true" visible="true" weight="0.22597677" />
+      <window_info anchor="bottom" id="Application Servers" order="13" sideWeight="0.49624464" weight="0.35963923" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48953027" weight="0.24845488" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48953027" visible="true" weight="0.24845488" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8125" visible="true" weight="0.25580078" />
-      <window_info id="Web" order="2" sideWeight="0.1875" side_tool="true" visible="true" weight="0.25580078" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.81036836" visible="true" weight="0.18229167" />
+      <window_info id="Web" order="2" sideWeight="0.18963166" side_tool="true" visible="true" weight="0.18229167" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49575552" weight="0.25339925" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4992785" weight="0.35851184" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="3" />
@@ -710,18 +380,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="web" />
     <MESSAGE value="11" />
-    <option name="LAST_COMMIT_MESSAGE" value="11" />
+    <MESSAGE value="胡嘉豪" />
+    <option name="LAST_COMMIT_MESSAGE" value="胡嘉豪" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/servlet/UserServlet.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="7" />
     </breakpoint-manager>
   </component>
@@ -794,13 +457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/document/日报/8.27(one day)">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/document/日报/8.27(one day)" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -836,13 +493,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/web_war_exploded/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/web_war_exploded/index.html" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -864,13 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/web_war_exploded/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/web_war_exploded/index.html" />
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
@@ -887,13 +532,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/web_war_exploded/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/web_war_exploded/index.html" />
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -933,13 +572,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/document/日报/8.27(one day)">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/document/日报/8.27(one day)" />
     <entry file="file://$PROJECT_DIR$/src/com/util/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -956,9 +589,6 @@
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logistics.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/filter/CharacterEncodingFilter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -982,7 +612,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="162">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -992,14 +622,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="378">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/entity/Receipt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="243">
           <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
           <folding>
             <element signature="e#3805#3806#0" expanded="true" />
@@ -1131,20 +761,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/html/goodsBillControl/edit/editGoods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1890" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
+        <state relative-caret-position="3024">
           <caret line="112" column="49" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="243">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1154,32 +782,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="513">
           <caret line="19" column="64" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="108">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/html/goodsBillControl/edit/editGoodsBill.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-599">
+        <state relative-caret-position="405">
           <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/document/日报/8.28胡嘉豪">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="438">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/document/日报/8.28/杨金玲">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/document/日报/8.28/胡嘉豪">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
