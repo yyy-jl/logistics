@@ -16,9 +16,11 @@
     <form class="layui-form" action="/UserServlet?method=editGoodsBill" method="post" id="goodsBillForm">
         <div class="layui-form-item">
             <label class="layui-form-label wd-100">发货客户编号</label>
+
             <div class="layui-input-inline">
                 <select name="sendGoodsCustomerNo" lay-verify="required" lay-filter="changeSend" id="sendGoodsCustomerNo" lay-search>
                     <option value="">请选择发货客户编号</option>
+                    <option value="1">1</option>
                 </select>
             </div>
         </div>
