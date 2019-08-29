@@ -34,16 +34,18 @@ public class UserDaoImpl extends DBUtil implements UserDao {
     @Override
     public List<Receipt> getReceiptByGoodsBillCode(String goodsBillCode) throws SQLException {
         List<Receipt> receipts =new ArrayList<>();
-        String sql="select sendGoodsCustomer,sendGoodsCustomerTel,sendGoodsCustomerAddr from receipt where sendGoodsCustomerNo=?";
+        String sql="select sendGoodsCustomer,sendGoodsCustomerTel,sendGoodsCustomerAddr,sendGoodsCustomerNO from receipt";
         Receipt receipt;
         try {
-            rs=executeQuery(sql,goodsBillCode);
+            rs=executeQuery(sql);
             receipt =null;
             while (rs.next()){
                 receipt =new Receipt();
+
                 receipt.setSendGoodsCustomer(rs.getString("sendGoodsCustomer"));
                 receipt.setSendGoodsCustomerTel(rs.getString("sendGoodsCustomerTel"));
                 receipt.setSendGoodsCustomerAddr(rs.getString("sendGoodsCustomerAddr"));
+                receipt.setSendGoodsCustomerNO(rs.getString("sendGoodsCustomerNO"));
                 receipts.add(receipt);
             }
 

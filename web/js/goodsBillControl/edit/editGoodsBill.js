@@ -37,9 +37,7 @@ layui.use(['element', 'form', 'laydate', 'layer', 'table', 'jquery'], function()
             console.log(result);
 
 
-            // $(result).each(function () {
-            //     console.log(this)
-            // })
+
             $.each(result, function (i, item) {
                 // let option = "<option value='" + item + "'>";
                 // option += item;
@@ -47,12 +45,32 @@ layui.use(['element', 'form', 'laydate', 'layer', 'table', 'jquery'], function()
                 // $("#sendGoodsCustomerNo").append(option);
                 // $("#receiveGoodsCustomerCode").append(option);
                 // form.render();
-                console.log(item['sendGoodsCustomer'])
-                $("#sendGoodsCustomer").val(item['sendGoodsCustomer']);
-                $("#sendGoodsCustomerTel").val(item['sendGoodsCustomerTel']);
-                $("#sendGoodsCustomerAddr").val(item['sendGoodsCustomerAddr']);
+                console.log(item['sendGoodsCustomer']);
+                console.log(item['sendGoodsCustomerNO'])
+                let option = "<option value='" + item['sendGoodsCustomerNO']+"'>";
+                option += item['sendGoodsCustomerNO'];
+                option += "</option>";
+                $("#sendGoodsCustomerNo").append(option);
+                $("#receiveGoodsCustomerCode").append(option);
+                form.render();
+
+                // $("#sendGoodsCustomer").val(item['sendGoodsCustomer']);
+                // $("#sendGoodsCustomerTel").val(item['sendGoodsCustomerTel']);
+                // $("#sendGoodsCustomerAddr").val(item['sendGoodsCustomerAddr']);
             });
+            // form.on('select(changeSend)', function (value) {
+            //     // ajax
+            //
+            //
+            //             console.log(value);
+            //             $("#sendGoodsCustomer").val(value.sendGoodsCustomer);
+            //             $("#sendGoodsCustomerTel").val(value.sendGoodsCustomerTel);
+            //             $("#sendGoodsCustomerAddr").val(value.sendGoodsCustomerAddr);
+            //
+            //
+            // });
         }
+
 
     });
 
@@ -60,11 +78,16 @@ layui.use(['element', 'form', 'laydate', 'layer', 'table', 'jquery'], function()
         // ajax
         $.ajax({
             type: 'get',
-            url: nginx_url + '/selectCusByCode/' + data.value,
+
+            // url:"../../../UserServlet?method=editGoodsBill" + data.value,
+            url:  '../../../UserServlet?method=editGoodsBill',
+            dataType:'json',
             success: function (result) {
-                $("#sendGoodsCustomer").val(result.customer);
-                $("#sendGoodsCustomerTel").val(result.phone);
-                $("#sendGoodsCustomerAddr").val(result.address);
+                console.log(result[parseInt(data.value)-1]);
+                $("#sendGoodsCustomer").val(result[parseInt(data.value)-1].sendGoodsCustomer);
+                // $("#sendGoodsCustomer").val(result[0].sendGoodsCustomer);
+                $("#sendGoodsCustomerTel").val(result[parseInt(data.value)-1].sendGoodsCustomerTel);
+                $("#sendGoodsCustomerAddr").val(result[parseInt(data.value)-1].sendGoodsCustomerAddr);
             }
         });
     });
