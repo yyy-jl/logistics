@@ -6,6 +6,7 @@ import com.entity.User;
 import com.service.UserService;
 
 import java.sql.SQLException;
+import java.util.List;
 
 public class UserServiceImpl implements UserService {
 
@@ -20,7 +21,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public Receipt getReceiptByGoodsBillCode(String goodsBillCode){
+    public List<Receipt> getReceiptByGoodsBillCode(String goodsBillCode){
         try {
             return new UserDaoImpl().getReceiptByGoodsBillCode(goodsBillCode);
         } catch (SQLException e) {

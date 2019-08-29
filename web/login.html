@@ -17,7 +17,7 @@
 <body>
 	<div class='login'>
         <div class="layui-form-item">
-            <form class="layui-form" action="UserServlet?method=login" method="post" id="loginForm">
+            <form class="layui-form" action="UserServlet?method=login" method="post" >
                 <div class='login_title'>
                     <span>登录</span>
                 </div>
@@ -46,8 +46,8 @@
                         <div class='login_fields__submit' align="center">
                             <div class="layui-input-block">
                                 <!--<input type='button' value='登录'>-->
-                                <!--<button class="layui-btn" lay-submit lay-filter="login">登录</button>-->
-                                <input type="submit" class="layui-btn" value="登录">
+                                <button class="layui-btn" lay-submit lay-filter="Login">登录</button>
+
                             </div>
                         </div>
                     </div>
@@ -106,10 +106,10 @@
         layui.use('form', function(){
             var form = layui.form;
             //监听提交
-            form.on('submit(login)', function(data){
-                layer.msg(JSON.stringify(data.field));
-                alert("aaaa")
-                return false;
+            form.on('submit(Login)', function(data){
+                // layer.msg(JSON.stringify(data.field));
+
+                return true;
             });
         });
 

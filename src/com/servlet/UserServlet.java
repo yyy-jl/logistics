@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 
 
 /**
@@ -60,8 +61,10 @@ public class UserServlet extends HttpServlet {
 				response.sendRedirect(request.getContextPath()+"/login.html");
 			}
 		}else if(method.equals("editGoodsBill")){
-			String sendGoodsCustomerNo=request.getParameter("sendGoodsCustomerNo");
-			Receipt receipt=userService.getReceiptByGoodsBillCode(sendGoodsCustomerNo);
+//			Receipt receipt=userService.getReceiptByGoodsBillCode("1");
+//            String sendGoodsCustomerNo=request.getParameter("sendGoodsCustomerNo");
+
+            List<Receipt> receipt=userService.getReceiptByGoodsBillCode("1");
 			String ReceiptJson=JSON.toJSONStringWithDateFormat(receipt,"yyyy-MM-dd,HH:mm:ss");
 			out.print(ReceiptJson);
 
