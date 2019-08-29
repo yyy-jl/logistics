@@ -13,12 +13,15 @@
 </head>
 <body>
 <div class="layui-form-item" style="margin-top: 20px">
-    <form class="layui-form" action="" id="cargoReceiptForm">
+    <form class="layui-form" action="/CargoreceiptServlet?method=transportTable" id="cargoReceiptForm">
         <div class="layui-form-item">
             <label class="layui-form-label wd-100">货运回执单编号</label>
             <div class="layui-input-inline">
                 <select name="goodsRevertBillCode" lay-verify="required" lay-filter="changeSend" id="goodsRevertBillCode" lay-search>
-                    <option value="">请选择货运回执单编号</option>
+
+                <option value="">请选择货运回执单编号</option>
+
+
                 </select>
             </div>
         </div>
@@ -205,6 +208,5 @@
 
 <script src="../../../js/nginx.js"></script>
 <script src="../../../js/vehicleControl/edit/editCargoReceipt.js"></script>
-
 </body>
 </html>
