@@ -7,6 +7,8 @@ import com.entity.User;
 import com.util.DBUtil;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserDaoImpl extends DBUtil implements UserDao {
 
@@ -30,22 +32,24 @@ public class UserDaoImpl extends DBUtil implements UserDao {
     }
 
     @Override
-    public Receipt getReceiptByGoodsBillCode(String goodsBillCode) throws SQLException {
+    public List<Receipt> getReceiptByGoodsBillCode(String goodsBillCode) throws SQLException {
+        List<Receipt> receipts =new ArrayList<>();
         String sql="select sendGoodsCustomer,sendGoodsCustomerTel,sendGoodsCustomerAddr from receipt where sendGoodsCustomerNo=?";
         Receipt receipt;
         try {
             rs=executeQuery(sql,goodsBillCode);
             receipt =null;
-            if (rs.next()){
+            while (rs.next()){
                 receipt =new Receipt();
                 receipt.setSendGoodsCustomer(rs.getString("sendGoodsCustomer"));
                 receipt.setSendGoodsCustomerTel(rs.getString("sendGoodsCustomerTel"));
                 receipt.setSendGoodsCustomerAddr(rs.getString("sendGoodsCustomerAddr"));
+                receipts.add(receipt);
             }
 
         }finally {
             closeAll(conn, pstmt, rs);
         }
-        return receipt;
+        return receipts;
     }
 }

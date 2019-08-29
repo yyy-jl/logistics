@@ -27,18 +27,30 @@ layui.use(['element', 'form', 'laydate', 'layer', 'table', 'jquery'], function()
     $("#writeBillPerson").val(employeeId);
     $("#employeeCode").val(employeeId);
 
+
     $.ajax({
         type: "get",
-        url: nginx_url + "/selectAllCusCode",
+        url: "../../../UserServlet?method=editGoodsBill",
         async: false,
+        dataType:'json',
         success: function (result) {
+            console.log(result);
+
+
+            // $(result).each(function () {
+            //     console.log(this)
+            // })
             $.each(result, function (i, item) {
-                let option = "<option value='" + item + "'>";
-                option += item;
-                option += "</option>";
-                $("#sendGoodsCustomerNo").append(option);
-                $("#receiveGoodsCustomerCode").append(option);
-                form.render();
+                // let option = "<option value='" + item + "'>";
+                // option += item;
+                // option += "</option>";
+                // $("#sendGoodsCustomerNo").append(option);
+                // $("#receiveGoodsCustomerCode").append(option);
+                // form.render();
+                console.log(item['sendGoodsCustomer'])
+                $("#sendGoodsCustomer").val(item['sendGoodsCustomer']);
+                $("#sendGoodsCustomerTel").val(item['sendGoodsCustomerTel']);
+                $("#sendGoodsCustomerAddr").val(item['sendGoodsCustomerAddr']);
             });
         }
 
