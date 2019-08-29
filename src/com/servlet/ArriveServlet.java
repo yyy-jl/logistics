@@ -38,7 +38,7 @@ public class ArriveServlet extends javax.servlet.http.HttpServlet {
             String  receiveGoodsDate=request.getParameter("receiveGoodsDate");
             Arrive arrive=new Arrive(goodsRevertCode,driverName,checkGoodsRecord,receiveGoodsPerson,receiveGoodsDate);
             try {
-                response.sendRedirect(arriveService.add(arrive))>0 ? request.getContextPath()+"/inform.html":request.getContextPath()+"/in";
+                response.sendRedirect(arriveService.add(arrive)>0 ? request.getContextPath()+"/inform.html":request.getContextPath()+"/in");
             } catch (SQLException e) {
                 e.printStackTrace();
             }
