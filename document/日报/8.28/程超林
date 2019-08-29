@@ -1,0 +1,16 @@
+写了
+MySQL   客户基本信息表CustomerInfo
+        回告信息表callbackinfo
+			entity
+  	callbackinfo    dao
+		    	impl
+		    	service
+java
+			 entity
+	CustomerInfo     dao
+			 impl
+			 service
+不足  	基础知识掌握不足
+	不能获取HTML中某个元素的值
+	dao层、list接口 不太熟
+	心中知道要做什么，不能用语句来表达出来
