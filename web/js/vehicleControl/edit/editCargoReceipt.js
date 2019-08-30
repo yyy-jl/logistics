@@ -14,12 +14,13 @@ layui.use(['element', 'form', 'laydate', 'layer', 'table'], function() {
 
     $.ajax({
         type: "get",
-        url: nginx_url + "/vehicle/selectLeftCodes",
+        url:  "../../../CargoreceiptServlet?method=transportTable",
         async: false,
+        dataType:"JSON",
         success: function (result) {
             $.each(result, function (i, item) {
-                let option = "<option value='" + item + "'>";
-                option += item;
+                let option = "<option value='" + item.goodsRevertBillCode + "'>";
+                option += item.goodsRevertBillCode;
                 option += "</option>";
                 $("#goodsRevertBillCode").append(option);
             });
