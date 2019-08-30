@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="layui-form-item" style="margin-top: 20px">
-    <form class="layui-form" action="/UserServlet?method=editGoodsBill" method="post" >
+    <form class="layui-form" action="/UserServlet?method=editGoodsBillSumbit" method="post" >
         <div class="layui-form-item">
             <label class="layui-form-label wd-100">发货客户编号</label>
 
@@ -168,6 +168,7 @@
                 </div>
             </div>
         </div>
+
         <div class="layui-form-item">
             <div class="layui-inline">
                 <label class="layui-form-label wd-100">是否结账</label>
@@ -177,6 +178,7 @@
             </div>
             <input type="hidden" id="ifSettleAccounts" name="ifSettleAccounts" value="false">
             <div class="layui-inline">
+
                 <label class="layui-form-label wd-100">减款</label>
                 <div class="layui-input-inline">
                     <input type="text" id="reduceFund" name="reduceFund" lay-verify="required|number" placeholder="请输入减款"

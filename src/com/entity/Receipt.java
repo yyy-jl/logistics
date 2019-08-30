@@ -21,8 +21,10 @@ public class Receipt {
     private String writeBillPerson;//填票人
     private String writeDate;//填写日期
     private String validity;//是否有效
-    private boolean ifAudit;//是否审核
-    private boolean ifSettleAccounts;//是否结账
+//    private boolean ifAudit;//是否审核
+    private String ifAudit;//是否审核
+//    private boolean ifSettleAccounts;//是否结账
+private String ifSettleAccounts;
     private boolean transferStation;//中转地
     private int transferFee;//中转费
     private int payKickback;//付回扣
@@ -36,8 +38,8 @@ public class Receipt {
     private String acceptStation;//接货点
     public Receipt() {
     }
-    public Receipt(int ID, String sendGoodsCustomerNO, String sendGoodsCustomer, String sendGoodsCustomerTel, String sendGoodsCustomerAddr, String receiveGoodsCustomerNo, String receiveGoodsCustomer, String receiveGoodsCustomerTel, String receiveGoodsCustomerAddr, String sendGoodsDate, String sendGoodsAddr, String receiveGoodsAddr, String predeliveryDate, String factDealDate, String helpAcceptPayment, String acceptProcedureRate, String payMode, String fetchGoodsMode, String writeBillPerson, String writeDate, String validity, boolean ifAudit, boolean ifSettleAccounts, boolean transferStation, int transferFee, int payKickback, int reduceFund, int moneyOfChangePay, int carryGoodsFee, int carriage, int insurance, String employeeID, String remark, String acceptStation) {
-        this.ID = ID;
+    public Receipt(String sendGoodsCustomerNO, String sendGoodsCustomer, String sendGoodsCustomerTel, String sendGoodsCustomerAddr, String receiveGoodsCustomerNo, String receiveGoodsCustomer, String receiveGoodsCustomerTel, String receiveGoodsCustomerAddr, String sendGoodsDate, String sendGoodsAddr, String receiveGoodsAddr, String predeliveryDate, String factDealDate, String helpAcceptPayment, String acceptProcedureRate, String payMode, String fetchGoodsMode, String writeBillPerson, String writeDate, String validity, String ifAudit, String ifSettleAccounts, boolean transferStation, int transferFee, int payKickback, int reduceFund, int moneyOfChangePay, int carryGoodsFee, int carriage, int insurance, String employeeID, String remark, String acceptStation) {
+//        this.ID = ID;
         this.sendGoodsCustomerNO = sendGoodsCustomerNO;
         this.sendGoodsCustomer = sendGoodsCustomer;
         this.sendGoodsCustomerTel = sendGoodsCustomerTel;
@@ -241,19 +243,36 @@ public class Receipt {
         this.validity = validity;
     }
 
-    public boolean isIfAudit() {
+//    public boolean isIfAudit() {
+//        return ifAudit;
+//    }
+//
+//    public void setIfAudit(boolean ifAudit) {
+//        this.ifAudit = ifAudit;
+//    }
+//
+//    public boolean isIfSettleAccounts() {
+//        return ifSettleAccounts;
+//    }
+//
+//    public void setIfSettleAccounts(boolean ifSettleAccounts) {
+//        this.ifSettleAccounts = ifSettleAccounts;
+//    }
+
+
+    public String getIfAudit() {
         return ifAudit;
     }
 
-    public void setIfAudit(boolean ifAudit) {
+    public void setIfAudit(String ifAudit) {
         this.ifAudit = ifAudit;
     }
 
-    public boolean isIfSettleAccounts() {
+    public String getIfSettleAccounts() {
         return ifSettleAccounts;
     }
 
-    public void setIfSettleAccounts(boolean ifSettleAccounts) {
+    public void setIfSettleAccounts(String ifSettleAccounts) {
         this.ifSettleAccounts = ifSettleAccounts;
     }
 

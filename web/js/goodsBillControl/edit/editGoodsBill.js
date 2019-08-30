@@ -91,19 +91,40 @@ layui.use(['element', 'form', 'laydate', 'layer', 'table', 'jquery'], function()
             }
         });
     });
-
     form.on('select(changeSend2)', function (data) {
         // ajax
         $.ajax({
             type: 'get',
-            url: nginx_url + '/selectCusByCode/' + data.value,
+
+            // url:"../../../UserServlet?method=editGoodsBill" + data.value,
+            url:  '../../../UserServlet?method=editGoodsBill',
+            dataType:'json',
             success: function (result) {
-                $("#receiveGoodsCustomer").val(result.customer);
-                $("#receiveGoodsCustomerTel").val(result.phone);
-                $("#receiveGoodsCustomerAddr").val(result.address);
+                console.log(result[parseInt(data.value)-1]);
+                $("#receiveGoodsCustomer").val(result[parseInt(data.value)-1].sendGoodsCustomer);
+                // $("#sendGoodsCustomer").val(result[0].sendGoodsCustomer);
+                $("#receiveGoodsCustomerTel").val(result[parseInt(data.value)-1].sendGoodsCustomerTel);
+                $("#receiveGoodsCustomerAddr").val(result[parseInt(data.value)-1].sendGoodsCustomerAddr);
             }
         });
     });
+
+
+
+
+
+    // form.on('select(changeSend2)', function (data) {
+    //     // ajax
+    //     $.ajax({
+    //         type: 'get',
+    //         url: nginx_url + '/selectCusByCode/' + data.value,
+    //         success: function (result) {
+    //             $("#receiveGoodsCustomer").val(result.customer);
+    //             $("#receiveGoodsCustomerTel").val(result.phone);
+    //             $("#receiveGoodsCustomerAddr").val(result.address);
+    //         }
+    //     });
+    // });
 
     form.on('switch(checkSettle)', function(data){
         if (data.elem.checked === true) {
